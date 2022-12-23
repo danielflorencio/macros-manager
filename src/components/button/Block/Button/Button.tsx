@@ -1,6 +1,9 @@
 import './styles.css'
-export default function Button(){
+type Props = {
+    cta: string;
+}
+export default function Button({cta}: Props){
     return(
-        <button className="button-1">CTA</button>
+        <button className="button-1">{cta}</button>
     )
 }

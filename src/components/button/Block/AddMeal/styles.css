@@ -1,0 +1,78 @@
+.add-meal-section{
+    padding: 6vh 0px;
+    width: 80%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgb(116, 0, 224, 0.35) 0px 5px 15px;
+}
+.meal-info-header-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.meal-img{width: 70%;}
+.meal-info{width: 80%;}
+
+.meal-img{
+    border-radius: 16px;
+}
+.meal-options form{
+    display: flex;
+}
+.meal-options input{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgb(116, 0, 224);
+}
+.nutritional-table{
+    width: 90%;
+    border: 1px solid rgb(116, 0, 224);
+    border-radius: 8px;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0 1.5vw;
+}
+.nutritional-table-row{
+    width: 100%;
+    height: 1.4rem;
+    padding: 0;
+    border-bottom: 1px solid rgb(116, 0, 224);
+}
+.nutritional-table-row:nth-child(1){
+    border-top: 0px;
+}
+.nutritional-table-row:last-child{
+    border-bottom: 0px;
+}
+.right{
+    float: right;
+}
+.nutritional-table p{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.meal-options form{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.meal-options form button{
+    /* font-size: 1.1rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1.2rem; */
+}
+/* The css rules below disable the arrows in the number input field. The first rule does it for chrome, Safari, Edge, and Opera. The second rule does it for Mozilla firefox. */
+.meal-options input::-webkit-outer-spin-button, .meal-options input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.meal-options input[type=number]{
+    -moz-appearance: textfield;
+} 
+/* https://www.geeksforgeeks.org/how-to-disable-arrows-from-number-input/ */
+/* https://stackoverflow.com/questions/23372903/hide-up-down-arrow-buttons-spinner-in-input-number-firefox-29 */
