@@ -1,18 +1,31 @@
 .add-meal-section{
     padding: 6vh 0px;
-    width: 80%;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: rgb(116, 0, 224, 0.35) 0px 5px 15px;
+    height: 75vh;
+    width: 380px;
+    /* width: 0px; */
 }
 .meal-info-header-container{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
 }
-.meal-img{width: 70%;}
+.meal-img{
+    width: 80%;
+}
+/* @media (max-width: 480px){
+    .meal-img{width: 70%;}
+} */
+/* @media (max-width: 768px){
+    .meal-img{width: 80%;}
+}
+@media (min-width: 769px) and (max-width: 1368px){
+    .meal-img{width: 30%;}
+} */
 .meal-info{width: 80%;}
 
 .meal-img{

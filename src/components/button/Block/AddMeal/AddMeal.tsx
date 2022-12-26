@@ -31,14 +31,13 @@ export default function AddMeal({img, mealTitle, mealDescription}: Props){
                                 <p><span>calories</span><strong><span className='right'>147kcal</span></strong></p>
                             </div>
                         </div>
-                        
                         <p>{mealDescription}</p>
                     </div>
                     <br/>
                     <br/>
                     <div className="meal-options">
                         <form>
-                            <label>Amount: <input type='number' inputMode='numeric'></input></label> {/* Input mode: numeric eliminates the arrows from the number input */}
+                            <label>Amount: <input type='number' inputMode='numeric'></input><strong> <i>g</i></strong></label> {/* Input mode: numeric eliminates the arrows from the number input */}
                             <Button cta='Add Meal'/>
                         </form>
                     </div>    
