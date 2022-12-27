@@ -1,14 +1,19 @@
 import './App.css'
-import AddMeal from './components/button/Block/AddMeal/AddMeal'
-import Block from './components/button/Block/Block/Block'
+import AddMeal from './components/AddMeal/AddMeal'
+import Block from './components/Block/Block'
 import Navbar from './components/Navbar/Navbar'
+import NewMealListing from './components/NewMealListing/NewMealListing'
+import { meals } from './assets/data/meals'
 
 function App() {
   
   return (
     <div className='app-container'>
-      {/* <AddMeal img='../../../public/imgs/black-beans.webp' mealTitle='Black Beans' mealDescription=''/> */}
-      <Navbar/>
+      {/* <AddMeal imgSrc='../../../public/imgs/black-beans.webp' name='Black Beans'/> */}
+      {/* <AddMeal name='beans' imgSrc='../../../public/imgs/black-beans.webp' proteins={9} carbohydrates={8} fats={12} calories={150} measureAmount={200}/> */}
+      {/* <Navbar/> */}
+      <NewMealListing/>
+      {/* <h1>teste</h1> */}
     </div>
     
   )
