@@ -5,5 +5,6 @@ export type Meal = {
     carbohydrates: number,
     fats: number,
     calories: number,
-    measureAmount: number;
+    measureAmount: number,
+    id?: number;
 }

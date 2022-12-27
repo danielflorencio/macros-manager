@@ -7,7 +7,6 @@
     box-shadow: rgb(116, 0, 224, 0.35) 0px 5px 15px;
     height: 75vh;
     width: 380px;
-    /* width: 0px; */
 }
 .meal-info-header-container{
     padding-left: 10px;
@@ -17,15 +16,7 @@
 .meal-img{
     width: 80%;
 }
-/* @media (max-width: 480px){
-    .meal-img{width: 70%;}
-} */
-/* @media (max-width: 768px){
-    .meal-img{width: 80%;}
-}
-@media (min-width: 769px) and (max-width: 1368px){
-    .meal-img{width: 30%;}
-} */
+
 .meal-info{width: 80%;}
 
 .meal-img{
@@ -35,7 +26,7 @@
     display: flex;
 }
 .meal-options input{
-    width: 50%;
+    width: 30%;
     border-radius: 16px;
     border: 1px solid rgb(116, 0, 224);
 }

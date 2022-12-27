@@ -39,4 +39,4 @@ export default function AddMeal({name, imgSrc, proteins, carbohydrates, fats, ca
             </div>
         </div>
     )
-}
+} 
