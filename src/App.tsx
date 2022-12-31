@@ -14,8 +14,8 @@ function App() {
       {/* <AddMeal name='beans' imgSrc='../../../public/imgs/black-beans.webp' proteins={9} carbohydrates={8} fats={12} calories={150} measureAmount={200}/> */}
       {/* <Navbar/> */}
       
-      {/* <NewMealListing/> */}
-      <TodaysMeal/>      
+      {/* <NewMealListing/> */} 
+      <TodaysMeal/>
       {/* <h1>teste</h1> */}
     </div>
     
